@@ -4,10 +4,10 @@ import ImageCardList from './components/ImageCardList';
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
      <ImageCardList/>
       
-    </div>
+    </main>
   );
 }
 
