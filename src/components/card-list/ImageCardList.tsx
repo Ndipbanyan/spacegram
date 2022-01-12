@@ -41,8 +41,8 @@ useEffect(()=>{fetchData()},[])
 
 const render=()=>{
     const jsx=loading?
-    <h1>Loading...</h1>:error?
-    <h1>Something went wrong...</h1>:data.length> 0?
+    <h1 className="loading">Loading...</h1>:error?
+    <h1 className="loading">Something went wrong...</h1>:data.length> 0?
     (<ul>
         {data.map((item:IProp)=>
        { return (<ImageCard key={item.id} {...item}/>)}

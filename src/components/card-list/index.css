@@ -1,11 +1,13 @@
 ul{
-    width: 100%;
+    width: 90%;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: rgb(247, 245, 245);
+    justify-content: space-between;
     
+}
+
+.loading{
+    margin-top: 20%;
 }
