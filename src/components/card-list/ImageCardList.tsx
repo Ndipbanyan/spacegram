@@ -23,7 +23,7 @@ const ImageCardList = () => {
  const apiKey=process.env.REACT_APP_SECRET_CODE
 
  const fetchData=()=>{
-     const url=`${baseUrl}/mars-photos/api/v1/rovers/curiosity/photos?sol=120&page=1&api_key=${apiKey}`
+     const url=`${baseUrl}/mars-photos/api/v1/rovers/curiosity/photos?sol=120&page=1&api_key=C8cTufGJGsXrPM8ASRLbqC8KrQUkGaOlIsYfUaI5`
      axios.get(url)
           .then(response=>{
             const result:IProp[]=response.data.photos
