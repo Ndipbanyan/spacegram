@@ -1,10 +1,10 @@
-import {useState,useEffect} from 'react';
+
 import './App.css';
-import ImageCardList from './components/ImageCardList';
+import ImageCardList from './components/card-list/ImageCardList';
 
 function App() {
   return (
-    <main className="App">
+    <main >
      <ImageCardList/>
       
     </main>

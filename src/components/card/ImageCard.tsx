@@ -1,10 +1,13 @@
 
-import { IProp } from './ImageCardList'
+import { IProp } from '../card-list/ImageCardList'
+import "./index.css"
 
 const ImageCard = ({img_src,earth_date,camera}:IProp) => {
     return (
-        <li className='container'>
-            <div className='image-container'><img src={img_src} alt={` taken with ${camera.full_name} on mars` } /></div>
+        <li >
+            <div className='image-container'>
+                <img src={img_src} alt={` taken with ${camera.full_name} on mars` } />
+            </div>
             <div className="title">
                 <p className="camera"><strong>{`${camera.name} - ${camera.full_name}`}</strong></p>
                 <p className="date">{earth_date}</p>

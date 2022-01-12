@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import ImageCard from "./ImageCard"
-
+import ImageCard from "../card/ImageCard"
+import './index.css'
 export interface IProp{
     id:string;
     img_src:string;
