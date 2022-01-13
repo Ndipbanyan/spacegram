@@ -2,7 +2,7 @@
   "name": "spacestagram",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Ndipbanyan.github.io",
+  "homepage": "https://ndipbanyan.github.io/spacegram/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
